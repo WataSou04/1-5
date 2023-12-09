@@ -101,10 +101,6 @@ main {
   padding: 25px 0 0 30px;
 }
 
-.blog-text-heading {
-  padding-bottom: 15px;
-}
-
 .blog-date {
   font-size: 12px;
   display: inline-block;
@@ -119,6 +115,22 @@ main {
   font-size: 11px;
 }
 
+.pagination {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
 .sidebar {
   width: 230px;
 }
@@ -130,7 +142,7 @@ main {
 }
 
 .sidebar-contents {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .popular-text,
@@ -138,6 +150,7 @@ main {
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
   margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .popular-text:last-child,
